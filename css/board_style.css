@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+/* Universal */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	margin-top: 100px;
+}
+
+h2{
+	margin-bottom: 50px;
+	font-family: 'Jua', sans-serif;
+}
+
+textarea{
+	resize: none;
+}
+
+
+/* Header */
+
+.header {
+	padding: 80px;
+	text-align: center;
+	background: white;
+	color: black;
+}
+
+.header h1 {
+	font-size: 90px;
+	font-family: 'Uchen', serif;
+}
+
+.header p {
+	font-size: 25px;
+	font-family: 'STIX Two Math', serif;
+}
+
+/* navigation bar */
+
+.header h1{
+	cursor: pointer;
+}
+.navbar {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+}
+
+.navbar__logo {
+	font-size: 40px;
+	font-weight: 300;
+	height: 100%;
+	color: white;
+	margin-left: 40px;
+	margin-bottom: 8px;
+}
+
+.navbar__logo a {
+	font-family: 'Uchen', serif;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar__logo a:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.navbar__menu {
+	display: flex;
+	padding-top: 8px;
+}
+
+.navbar__menu__item {
+	font-size: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+	padding: 8px 20px 8px 20px;
+	color: white;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 20%;
+}
+
+.navbar__menu__item:hover {
+	border-color: gray;
+	background-color: gray;
+}
+
+.navbar__menu li {
+	list-style: none;
+}
+
+.navbar__menu a {
+	font-family: 'STIX Two Math', serif;
+	font-size: 23px;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar__menu a:hover {
+	color: white;
+	cursor: pointer;
+}
+
+/* BoardMain */
+
+.board {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.writebtn{
+	position:relative;
+	left: 700px;
+	display: inline;
+	font-size: 17px;
+	margin-bottom: 10px;
+	margin-right: 200px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.board a{
+	text-decoration: none;
+}
+
+.board_top .bold {
+	float: left;
+	width: 200px;
+	margin:auto;
+}
+
+.txt_orange {
+	font: bold 12px verdana;
+	color: #ff7e00;
+}
+
+.con_title {
+	overflow: hidden;
+	position: relative;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.con_title h3 {
+	margin: 0px 0 0px 0;
+	text-align: left;
+}
+
+.con_title p {
+	margin-top: 10px; 
+	padding-bottom: 5px; 
+	border-bottom: 1px solid #DADADA;
+}
+
+.contents1 .con_txt{ 
+	clear:both;
+}   
+
+/* Content */
+.content{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	text-align: center;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.content h2 {
+	font-size: 50px;
+	font-family: 'Jua', sans-serif;
+}
+
+.contents1{
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 0px;
+}
+
+/* WriteForm */
+
+.writeform {
+	padding-top: 80px;
+	padding-bottom: 60px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+/* UpdateForm */
+.updateform {
+	padding-top: 80px;
+	padding-bottom: 60px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 200px;
+}
+
+.update_title{
+	text-align:center;
+	font-size: 50px;
+	font-family: 'Jua', sans-serif;
+}
+
+/* DeleteForm */
+
+.deleteform{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	margin-left: 700px;
+	margin-right: 400px;
+}
+
+.deleteform h2 {
+	font-size: 50px;
+	font-family: 'Jua', sans-serif;
+}
+
+.deleteform img{
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+
+.deleteform form{
+	margin-left: 40px;
+}
+
+.deleteform label{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/* reWriteForm */
+
+.rewriteform{
+	padding-top: 80px;
+	padding-bottom: 60px;
+	margin-left: 400px;
+	margin-right: 400px;
+	margin-bottom: 200px;
+}
+
+
+/* Footer */
+.footer {
+	padding: 20px;
+	text-align: center;
+	background: black;
+}
+
+.footer a {
+	text-decoration: none;
+}
+
+
+
+/* Contact */
+.contact__rights {
+	color: white;
+	font-size: 20px;
+	padding-right: 15px;
+}
+
+.footer i {
+	font-size: 30px;
+	margin: 24px 0;
+	color: white;
+	transition: all var(- -animation-duration) ease-in;
+}
+
+.contact__links_1, .contact__links_2, .contact__links_3 {
+	padding-right: 5px;
+}
+
+.contact__links_1 i:hover {
+	transform: scale(1.5);
+	color: blue;
+}
+
+.contact__links_2 i:hover {
+	transform: scale(1.5);
+	color: #E6217D;
+}
+
+.contact__links_3 i:hover {
+	transform: scale(1.5);
+	color: navy;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
