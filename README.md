@@ -54,22 +54,4 @@
 5> <b>기타</b>
 - 카카오 OPEN-API 활용한 다국어 번역기 구현
 - 문의사항에서 구글 SMTP 서버를 활용한 메일 전송 기능 구현
- 
-## 📈 발표자료_PPT
-<details>
-<summary>발표자료 보기</summary>
-<div markdown="1">
-1.
-<img src="https://user-images.githubusercontent.com/92525310/148328986-0837c846-db77-4c9e-b950-c3da3696550f.png">
-2. 
-<img src="https://user-images.githubusercontent.com/92525310/148329024-c883c49a-6947-47f9-bf9e-9a780895aa67.png">
-3.
-<img src="https://user-images.githubusercontent.com/92525310/148329055-3ee96071-e69f-4ce6-ba0d-ee53fde42aea.png">
-4.
-<img src="https://user-images.githubusercontent.com/92525310/148329091-579d0c44-9ae4-48b4-bf11-70262268658f.png">
-5.
-<img src="https://user-images.githubusercontent.com/92525310/148329116-3e214103-11d5-41cc-9995-a58778fc353a.png">
-<img src="https://user-images.githubusercontent.com/92525310/148329156-fc70fa9f-5fd0-45ae-9637-93718c4463ca.png">
- </div>
-</details>
 
