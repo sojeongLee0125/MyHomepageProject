@@ -1,4 +1,4 @@
-package com;
+package mypage;
 
 import java.io.File;
 import java.sql.Connection;

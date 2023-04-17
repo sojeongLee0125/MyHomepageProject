@@ -1,4 +1,4 @@
-package com;
+package mypage;
 
 public class MemberBean {
 
